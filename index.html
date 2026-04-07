@@ -184,7 +184,7 @@
                     <tbody id="record-list" class="divide-y divide-slate-100 dark:divide-slate-800"></tbody>
                 </table>
             </div>
-            <div id="empty-state" class="hidden p-20 text-center font-black text-slate-400">データがまだないよ</div>
+            <div id="empty-state" class="hidden p-20 text-center font-black text-slate-400">データがまだないよ(´；ω；｀)ﾌﾞﾜｯ</div>
         </div>
 
         <!-- Chart -->
@@ -221,7 +221,7 @@
     <div id="settings-modal" class="fixed inset-0 z-[1100] hidden flex items-center justify-center p-6 bg-slate-950/70 backdrop-blur-md">
         <div class="bg-white dark:bg-slate-900 w-full max-w-md rounded-[2.5rem] p-8 shadow-2xl animate-slideUp flex flex-col max-h-[90vh] border border-slate-200 dark:border-slate-800 overflow-hidden">
             <div class="flex justify-between items-center mb-8 shrink-0">
-                <h3 class="text-[1.7rem] font-black text-main tracking-tight">設定</h3>
+                <h3 class="text-[1.7rem] font-black text-main tracking-tight">設定しよう</h3>
                 <button onclick="toggleSettingsModal()" class="p-3 text-main hover:bg-slate-100 dark:hover:bg-slate-800 rounded-2xl transition"><svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"></path></svg></button>
             </div>
             <div class="flex-1 overflow-y-auto no-scrollbar space-y-10 pr-1">
@@ -246,7 +246,7 @@
                     </div>
                     <div class="space-y-4 mb-8">
                         <div class="flex gap-3">
-                            <input type="text" id="new-category-name" placeholder="新しい名称" class="flex-1 p-4.5 rounded-2xl bg-slate-50 dark:bg-slate-800 border-2 border-transparent font-black outline-none text-main focus-border-primary">
+                            <input type="text" id="new-category-name" placeholder="新しいカテゴリーの名前を決めてね" class="flex-1 p-4.5 rounded-2xl bg-slate-50 dark:bg-slate-800 border-2 border-transparent font-black outline-none text-main focus-border-primary">
                             <button onclick="addCategory()" class="bg-primary text-white px-7 rounded-2xl font-black shadow-md active:scale-95 transition">追加</button>
                         </div>
                         <div class="flex flex-wrap gap-3 justify-center" id="new-category-palette"></div>
@@ -316,7 +316,7 @@
                 { name: "飲み物", color: "#10b981", type: 'expense' },
                 { name: "外食", color: "#f59e0b", type: 'expense' },
                 { name: "趣味のもの", color: "#8b5cf6", type: 'expense' },
-                { name: "給料", color: "#10b981", type: 'income' },
+                { name: "年金", color: "#10b981", type: 'income' },
                 { name: "お小遣い", color: "#f59e0b", type: 'income' },
                 { name: "その他", color: "#64748b", type: 'income' },
                 { name: "その他", color: "#64748b", type: 'expense' }
